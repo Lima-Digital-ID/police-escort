@@ -7,8 +7,8 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="{{ asset('/frontend') }}/img/favicon.png" rel="icon" />
-    <link href="{{ asset('/frontend') }}/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="{{ asset('/Frontend') }}/img/favicon.png" rel="icon" />
+    <link href="{{ asset('/Frontend') }}/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -16,15 +16,15 @@
         rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
-    <link href="{{ asset('/frontend') }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="{{ asset('/frontend') }}/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-    <link href="{{ asset('/frontend') }}/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link href="{{ asset('/frontend') }}/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-    <link href="{{ asset('/frontend') }}/vendor/remixicon/remixicon.css" rel="stylesheet" />
-    <link href="{{ asset('/frontend') }}/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="{{ asset('/Frontend') }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="{{ asset('/Frontend') }}/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="{{ asset('/Frontend') }}/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="{{ asset('/Frontend') }}/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="{{ asset('/Frontend') }}/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="{{ asset('/Frontend') }}/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
-    <link href="{{ asset('/frontend') }}/css/style.css" rel="stylesheet" />
+    <link href="{{ asset('/Frontend') }}/css/style.css" rel="stylesheet" />
 
     <!-- =======================================================
   * Template Name: KnightOne
