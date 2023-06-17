@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\Frontend\LandingPageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
 
 Route::get('/', [LandingPageController::class, 'index'])->name('landing-page.index');
 
