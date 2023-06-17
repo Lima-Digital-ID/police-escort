@@ -21,6 +21,8 @@ Route::get('/welcome', function () {
 
 
 Route::get('/', [LandingPageController::class, 'index'])->name('landing-page.index');
+Route::post('/', [LandingPageController::class, 'store'])->name('landing-page.store');
+Route::get('/ajax-select', [LandingPageController::class, 'ajaxSelect'])->name('landing-page.select');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
